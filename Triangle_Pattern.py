@@ -1,0 +1,15 @@
+import turtle
+a=turtle.Turtle()
+turtle.title('Triangle')
+a.shape('turtle')
+turtle.bgcolor('black')
+a.speed('slowest')
+a.pencolor("White")
+a.width(3)
+a.fillcolor('yellow')
+a.begin_fill()
+for i in range(3):
+    a.fd(200)
+    a.lt(90)
+    a.lt(30)
+a.end_fill()
